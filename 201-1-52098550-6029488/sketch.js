@@ -32,7 +32,7 @@ function draw()
     stroke(255, 0, 0);
     strokeWeight(3);
     noFill();
-    triangle(500, 500, 0, 0, 0, 0);
+    triangle(144, 374, 604, 453, 986, 330);
 
 }
 
