@@ -1,7 +1,7 @@
 /*
 
 Officer: 6029488
-CaseNum: 101-1-15412580-6029488
+CaseNum: 101-1-51394844-6029488
 
 Case 101 - The Case of Lina Lovelace
 Stage 2 - The Smalltalk Speakeasy
@@ -11,11 +11,11 @@ in Console City than she heads straight for Smalltalk’s. Now be careful kid, t
 place is a den of iniquity. Find out who she’s meeting and then get out as soon as
 you can.
 
-First identify Lina by drawing a rectangle with a green outline around her.
+First identify Lina by drawing a rectangle with a magenta outline around her.
 She’s the woman in the red dress of course.
 
 That woman with the cigarette and the feathered hat looks very familiar. Let’s identify her too by drawing
-a rectangle with a green outline around her. Make sure you include her cigarette
+a rectangle with a cyan outline around her. Make sure you include her cigarette
 and feather too.
 
 The rectangles should cover the targets as accurately as possible without
@@ -46,8 +46,11 @@ function setup()
 function draw()
 {
 	image(img,0,0);
-	rect(1340, 417, 170, 333);
-	stroke(0, 255, 0);
-	rect(189, 616, 325, 570);
-	stroke(0, 255, 0);
+	stroke(255, 0, 255);
+	rect(365, 88, 320, 645);
+	stroke(0, 255, 255);
+	rect(1525, 81, 295, 505);
+	
+
+
 }
